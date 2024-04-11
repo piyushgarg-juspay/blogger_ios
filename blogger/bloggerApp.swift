@@ -23,10 +23,16 @@ struct bloggerApp: App {
         }
     }()
 
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+//        .modelContainer(sharedModelContainer)
+//    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WebView_UI()
         }
-        .modelContainer(sharedModelContainer)
     }
 }
